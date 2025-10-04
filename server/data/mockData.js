@@ -3,21 +3,21 @@
 const mockCourses = [
   {
     id: 1,
-    name: 'Complete Web Development Bootcamp',
+    name: 'Advanced Full Stack Development 2025',
     instructor: 'Dr. Angela Yu',
     instructorId: 101,
-    students: 1247,
-    enrolled: 1380,
-    progress: 78,
+    students: 1500,
+    enrolled: 1650,
+    progress: 85,
     status: 'Active',
-    rating: 4.8,
+    rating: 4.9,
     category: 'Web Development',
-    duration: '45 hours',
-    description: 'Learn HTML, CSS, JavaScript, React and more',
-    price: 89.99,
+    duration: '50 hours',
+    description: 'Master modern web development with React, Node.js, and TypeScript',
+    price: 99.99,
     thumbnail: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085',
     createdAt: '2023-01-15',
-    updatedAt: '2024-01-10'
+    updatedAt: '2025-01-10'
   },
   {
     id: 2,
