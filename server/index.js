@@ -36,6 +36,24 @@ const corsOptions = {
 app.use(cors(corsOptions));
 app.use(express.json());
 
+// Root route
+app.get('/', (req, res) => {
+  res.json({
+    success: true,
+    message: 'EduAdmin API Server',
+    version: '1.0.0',
+    endpoints: {
+      health: '/health',
+      courses: '/api/courses',
+      students: '/api/students',
+      instructors: '/api/instructors',
+      analytics: '/api/analytics/stats',
+      assignments: '/api/assignments',
+      certificates: '/api/certificates'
+    }
+  });
+});
+
 // Health check
 app.get('/health', (req, res) => {
   res.json({ status: 'ok', message: 'Server is running' });
