@@ -1,0 +1,6 @@
+Update Render deployment configuration and documentation
+
+Clarify Root Directory requirement in DEPLOYMENT.md
+
+🤖 Generated with Codebuff
+Co-Authored-By: Codebuff <noreply@codebuff.com>

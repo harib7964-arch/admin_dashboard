@@ -47,10 +47,14 @@ This guide covers deploying the EduAdmin e-learning platform with a React fronte
 
 3. **Configure Service:**
    - **Name:** eduadmin-backend
-   - **Root Directory:** `server`
+   - **Root Directory:** `server` (IMPORTANT: Must be set to server directory)
    - **Environment:** Node.js
    - **Build Command:** `npm install`
    - **Start Command:** `npm start`
+   
+   **Note:** If you already created a service without setting the Root Directory, you must either:
+   - Delete the service and create a new one with correct settings, OR
+   - Go to Settings > Build & Deploy and update the Root Directory to `server`
 
 4. **Environment Variables:**
    ```
