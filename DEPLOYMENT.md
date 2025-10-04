@@ -48,7 +48,7 @@ This guide covers deploying the EduAdmin e-learning platform with a React fronte
 3. **Configure Service:**
    - **Name:** eduadmin-backend
    - **Root Directory:** `server`
-   - **Environment:** Node
+   - **Environment:** Node.js
    - **Build Command:** `npm install`
    - **Start Command:** `npm start`
 
